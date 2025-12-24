@@ -1,0 +1,7 @@
+# Ensure Jupyter notebook outputs are preserved
+*.ipynb filter=
+
+# Treat notebooks as text files (not binary) so diffs work properly
+*.ipynb diff=ipynb
+*.ipynb merge=union
+
